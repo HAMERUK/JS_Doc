@@ -75,3 +75,36 @@ li{
   margin-left: 15px;
   font-size: .8rem;
 }
+@media (max-width: 600px){
+  .main-flex{
+    margin: .2rem;
+    padding: 0;
+    line-height: 1rem;
+  }
+  p{
+    font-size: .8rem;
+    margin-bottom: .4rem;
+  }
+  .code{
+    font-size: .6rem;
+    padding: 10px;
+    margin-bottom: 5px;
+    overflow: hidden;
+  }
+  ul{
+  padding-left: .6rem;
+  }
+  li{
+    font-size: .8rem;
+    margin-bottom: .4rem;
+  }
+  .main-flex header{
+  font-size: 1rem;
+  margin: .4rem .2rem;
+}
+}
+@media screen and (max-width: 600px) {
+  #navbar {
+    display: none;
+  }
+}
